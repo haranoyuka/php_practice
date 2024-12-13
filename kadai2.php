@@ -1,38 +1,50 @@
+<?php
 //1
 
-/*
-$name ="原野佑香"
-if ($name = "原野佑香")
-  echo"私は原野佑香です";
 
-$neme ="原野佑香"
-if ($name ="原野佑香")
-$neme ="原野佑香" {
+$name ="原野佑香";
+if($name == "原野佑香"){
   echo "私は原野佑香です";
 } else {
   echo "原野佑香ではありません";
 }
-*/
 
 //2
 
-/*
-for($i = 0; $i < 10000; $i++){
-  echo $i;
+$total = 0;
+echo $total;
+//=> 0 と表示される。
+for ($i = 0; $i <= 10000; $i++) { //繰り返し条件
+  $total += $i;
+}
+
+// $iが0から始まり、$iが１００以下の間繰り返し処理をおこなう。
+for ($i = 0; $i <= 10000; $i++) {
+  //$total += $i;
+
+  $total = $total + $i; 
+  // $total = 0 + 0;// 1週目
+  // $total = 0 + 1;
+  // $total = 1 + 2;
+  // $total = 3 + 3;// 4週目
+  // $total = 6 + 4;
+  // $total = 10 + 5;
 }
 echo $total;
 
-*/
+
+
+
 
 //3
 
-/*
+
 $fruits = array("apple", "orange", "lemon", "cherry", "banana");
 echo count($fruits);
 foreach($fruits as $fruits){
   echo "要素は" . $fruits;
   echo "";
-*/
+
 
 //4
 
