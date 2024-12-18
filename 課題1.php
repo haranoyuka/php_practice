@@ -36,11 +36,9 @@ $world = "s World!";
 echo $hello . $name . $world;
 //=> "Hello, haranoyuka "s World!" が表示される
 
-/*
 
 //4
 
-*/
 $tech_boost = 'tech ';
 $tech_boost .= 'boost';
 echo $tech_boost;
